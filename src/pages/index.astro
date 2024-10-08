@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import {CalcMachine} from '../components/CalcMachine.jsx';
+---
+
+<Layout title="CalcTech">
+	<main>
+		<div>
+			<CalcMachine client:load />
+		</div>
+	</main>
+</Layout>
